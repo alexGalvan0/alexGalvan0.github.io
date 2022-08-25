@@ -23,6 +23,6 @@
 
 
 3.  What is something about you that can only be learned by reading this blog?
-4.  
+  
     -   I am terrefied of talking infront of people. Hopefully after the bootcamp, I can overcome this discomfort. I also have a crazy puppy! 
     ![puppy](/img/puppy.jpg)
