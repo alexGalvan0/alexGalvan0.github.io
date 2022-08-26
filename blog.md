@@ -9,12 +9,12 @@
 
 2. #### What are you excited or eager to learn more about?
 
-    >   I am excited to learn how to build a full stack application using Javascript and python. Excited to be able to  have a front end talk to the backend. I have attempted to build an app myself and got pretty far; I do not think it was up to industry standards though. I am eager to receive some training from professionals in the industry to polish and add to my current skillset. I am also really wanting to learn C# after the bootcamp. I tinkered around with .net framework by creating blazor applications and was very cool as well.
+    >   I am excited to learn how to build a full stack application using Javascript and python. Excited to be able to  have a front end talk to the backend. I have attempted to build an app myself and got pretty far; I do not think it was up to industry standards though. I am eager to receive some training from professionals in the industry to polish and add to my current skillset. I am also really wanting to learn C# after the bootcamp.
 
 
 3. #### What is something about you that can only be learned by reading this blog?
   
-    >   I am not sure what happened to me but during the last year or so, I developed an obsession with grilling. A perfect evening for me is getting home from work, get the meat ready, crack open a cold beverage, and grill.
+    >   I am not sure what happened to me but during the last year or so, I developed an strong interest in grilling. A perfect evening for me is getting home from work, get the burgers ready, crack open a cold beverage, and grill.
 
 
 #### These are some of the CLI commands that I learned this week
