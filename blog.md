@@ -30,6 +30,3 @@
 
 //git push origin main
 ```
----
-
-![bio header](https://lh3.googleusercontent.com/hr_crs_themes/AIq9KHNjNK6UFWbyaVMIxmrNgKgIXEJWKxyL76BbhcC1HUCE30VB6r2-L1DOO3KXZ3DAlXK5tIzss5W4pfKsreac5Wpldg08nOZCNDKJfuRyboHuDheH8lcQ=s1280)
