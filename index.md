@@ -8,7 +8,6 @@ My name is Alex Galvan and I am currently enrolled in the AWESOME INC. Developer
 ## - [Email](mailto:galvan.alex121@gmail.com)
 
 
-<hr>
  DATE | BLOG
 ------------ | -------------
 August 27th | [BLOG WEEK1](./blogs/week1.md)
@@ -17,10 +16,3 @@ September 11th | [BLOG WEEK3](./blogs/week3.md)
 
 
 
-
-
-<style>
-    a {
-        color: light-blue;
-    }
-</style>
