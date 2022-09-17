@@ -13,6 +13,7 @@ My name is Alex Galvan and I am currently enrolled in the AWESOME INC. Developer
 August 27th | [BLOG WEEK1](./blogs/week1.md)
 September 3rd | [BLOG WEEK2](./blogs/week2.md)
 September 11th | [BLOG WEEK3](./blogs/week3.md)
+September 17th | [BLOG WEEK4](./blogs/week4.md)
 
 
 
