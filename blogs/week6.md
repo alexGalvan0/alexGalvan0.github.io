@@ -20,4 +20,4 @@ I struggle with figuring it out in my head and not waning to write it down. I ha
 > Katas. just kidding. I enjoy katas when I can figure them out. I would also say from experience, being rushed is something that as a developer I dont really like that much. I think it makes me a better developer though becuase I hit the goals that are needed and dont spend too much time on other things. I also think it minimizes scope creep. 
 
 
-[HOME](../index.md)
+[HOME](../blog.md)

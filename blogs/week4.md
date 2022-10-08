@@ -18,4 +18,4 @@
 
 
 
-[HOME](../index.md)
+[HOME](../blog.md)

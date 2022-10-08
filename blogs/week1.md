@@ -32,4 +32,4 @@
 //git push origin main
 ```
 
-[HOME](../index.md)
+[HOME](../blog.md)

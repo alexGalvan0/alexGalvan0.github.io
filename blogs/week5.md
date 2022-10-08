@@ -13,4 +13,4 @@
 > I enjoy making people's life easier through applications and development. I also enjoy building things from scratch. This is something that I have been wanting to dive into the past 3 years or so. This is my chance to become a developer. 
 
 
-[HOME](../index.md)
+[HOME](../blog.md)
