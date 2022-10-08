@@ -21,5 +21,5 @@ I saw the instructions as a visual guidince, not a make this exact page below.
 > I like to go on walks and take my mind a break. Sometimes i just need to go to sleep and will have the answer by morning. (typically in the shower for some reason)
 
 
-[HOME](../index.md)
+[HOME](../blog.md)
 

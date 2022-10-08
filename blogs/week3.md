@@ -19,4 +19,4 @@
 > Pseudocode is like eating healthy. You don't want to, but it's good for you. The more you do it, the easier it gets. As process oriented as I am, when does the scope of you project end? In some of the examples from the Hopper group, I saw that some people had logic that IF they didn't have a material needed to continue in their process, go to the store. Well, what the process of going to the store, and buying something? I know this is an overkill to think about all of this when you are designing an app, or is it? I enjoy that pseudocode makes you think about all these things, however I need to scope the project and stick to it. Be comfortable at ending the program without the outcome you are trying to accomplish. 
 
 
-[HOME](../index.md)
+[HOME](../blog.md)
