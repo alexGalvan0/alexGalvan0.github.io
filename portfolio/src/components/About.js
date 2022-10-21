@@ -42,7 +42,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <img className ="rounded"src='./images/galvan-alex.jpeg' style={{height:'25rem'}} alt='Alex Galvan' />
+      <img className ="rounded"src='./img/galvan-alex.jpeg' style={{height:'25rem'}} alt='Alex Galvan' />
     </div>
   );
 }
