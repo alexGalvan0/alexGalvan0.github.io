@@ -1,6 +1,4 @@
 
-import profilePic from '../images/galvan-alex.jpeg';
-
 export default function About() {
   return (
     <div className="container col-xl-10 col-xxl-8 px-4 py-5">
@@ -44,7 +42,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <img className ="rounded"src={profilePic} style={{height:'25rem'}} alt='Alex Galvan' />
+      <img className ="rounded"src='./images/galvan-alex.jpeg' style={{height:'25rem'}} alt='Alex Galvan' />
     </div>
   );
 }
