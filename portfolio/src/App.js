@@ -2,30 +2,30 @@ import About from "./components/About";
 import Splash from "./components/Splash";
 import ProjectCard from "./components/ProjectCard";
 
+import Grid from "@mui/material/Grid";
+
 import { projects } from "./projects";
 
-
 function App() {
-   console.log(projects)
+  console.log(projects.length);
 
   return (
     <div className="App" grid>
       <Splash />
       <About />
-
-      < ProjectCard
-        imagePath="./img/react-restaurant.jpg"
-        title="Restaurant Menu"
-        description="Used React.js to complete this."
-        repoLink="https://github.com/alexGalvan0/react-restaurant"
-      />
-
-      <ProjectCard
-        imagePath="./img/tic-tac-toe.jpg"
-        title="Tic-Tac-Toe"
-        description="Used React.js to complete this."
-        repoLink="https://github.com/alexGalvan0/tic-tac-toe"
-      />
+      <Grid className="container-fluid d-flex justify-content-around gap-2">
+        {projects.map((project) => {
+          return (
+            <ProjectCard
+              key={project.title}
+              title={project.title}
+              description={project.description}
+              imagePath={project.imagePath}
+              repoLink={project.repoLink}
+            />
+          );
+        })}
+      </Grid>
     </div>
   );
 }
