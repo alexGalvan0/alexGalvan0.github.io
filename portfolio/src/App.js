@@ -2,7 +2,12 @@ import About from "./components/About";
 import Splash from "./components/Splash";
 import ProjectCard from "./components/ProjectCard";
 
+import { projects } from "./projects";
+
+
 function App() {
+   console.log(projects)
+
   return (
     <div className="App" grid>
       <Splash />
