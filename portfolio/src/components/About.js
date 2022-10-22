@@ -6,7 +6,7 @@ export default function About() {
           <h1 className="display-4 fw-bold lh-1 mb-3">About Me</h1>
           <p className="col-lg-10 fs-4">
             My name is Alex Galvan and I am a Web Developer from Lexington KY! I
-            am currentyl enrolled at the Awesome Inc Web Developer Bootcamp and
+            am currently enrolled at the Awesome Inc Web Developer Bootcamp and
             plan to finish December 2022. We are learning technologies such as
             Git, React, Django in an Agile work enviroment. Feel free to reach
             out to me and connect on how I can bring value to your company.
