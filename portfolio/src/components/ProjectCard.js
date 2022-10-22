@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-export default function ProjectCard({imagePath, title, description}) {
+export default function ProjectCard({imagePath, title, description,repoLink}) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
@@ -24,7 +24,7 @@ export default function ProjectCard({imagePath, title, description}) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Live</Button>
+        <Button size="small"><a href={repoLink}>Repo</a></Button>
         <Button size="small">Repo</Button>
       </CardActions>
     </Card>
