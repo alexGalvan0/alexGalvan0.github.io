@@ -18,7 +18,7 @@ function App() {
       <Typography className="text-center mb-3" varient="h2">PROJECTS</Typography>
       <div className="container-fluid">
         <div className="row">
-          <div className="col d-flex justify-content-around">
+          <div className="col d-flex justify-content-around flex-sm-row">
             {projects.map((project) => {
               return (
                 <ProjectCard
