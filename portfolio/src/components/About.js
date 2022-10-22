@@ -16,7 +16,7 @@ export default function About() {
         <img
           className="rounded"
           src="./img/galvan-alex.jpeg"
-          style={{ height: "25rem", width:'22rem' }}
+          style={{ height: "22rem", width:'22rem' }}
           alt="Alex Galvan"
         />
       </div>
