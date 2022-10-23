@@ -2,6 +2,7 @@
 import About from "./components/About";
 import Splash from "./components/Splash";
 import ProjectCard from "./components/ProjectCard";
+import Nav from "./components/Nav/Nav";
 
 import Typography from '@mui/material/Typography';
 
@@ -11,6 +12,7 @@ import { projects } from "./projects";
 function App() {
   return (
     <div className="App mb-5">
+      <Nav />
       <Splash />
       <About />
 
