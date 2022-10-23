@@ -5,7 +5,7 @@ import ProjectCard from "./components/ProjectCard";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer";
 
-import Typography from '@mui/material/Typography';
+import Typography from "@mui/material/Typography";
 
 //Data
 import { projects } from "./projects";
@@ -17,8 +17,15 @@ function App() {
       <Splash />
       <About />
 
+      <Typography
+        className="text-center mb-3 pt-4 bg-light"
+        style={{ color: "black", height: "5rem" }}
+        varient="h2"
+        mt={2}
+      >
+        PROJECTS
+      </Typography>
 
-      <Typography className="text-center mb-3 bg-light"style={{color:'black', height:'5rem'}} varient="h2">PROJECTS</Typography>
       <div className="container-fluid">
         <div className="row">
           <div className="col d-flex justify-content-around flex-wrap gap-2">
