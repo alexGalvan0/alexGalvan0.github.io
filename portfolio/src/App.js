@@ -3,6 +3,7 @@ import About from "./components/About";
 import Splash from "./components/Splash";
 import ProjectCard from "./components/ProjectCard";
 import Nav from "./components/Nav/Nav";
+import Footer from "./components/Footer";
 
 import Typography from '@mui/material/Typography';
 
@@ -17,7 +18,7 @@ function App() {
       <About />
 
 
-      <Typography className="text-center mb-3" varient="h2">PROJECTS</Typography>
+      <Typography className="text-center mb-3 bg-light"style={{color:'black', height:'5rem'}} varient="h2">PROJECTS</Typography>
       <div className="container-fluid">
         <div className="row">
           <div className="col d-flex justify-content-around flex-wrap gap-2">
@@ -35,6 +36,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

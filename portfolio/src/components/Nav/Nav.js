@@ -4,7 +4,7 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-lg bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand link-light" href="#">
           AG
         </a>
         <button
@@ -20,16 +20,9 @@ function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav" >
-            <a className="nav-link active link-light" aria-current="page" href="#">
-              Home
-            </a>
             <a className="nav-link link-light" href="#">
               Features
             </a>
-            <a className="nav-link link-light" href="#">
-              Pricing
-            </a>
-            <a className="nav-link link-light disabled">Disabled</a>
           </div>
         </div>
       </div>
