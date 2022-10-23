@@ -10,6 +10,7 @@ export const projects = [
     title: "Tic-Tac-Toe",
     description: "Used React.js to complete this.",
     repoLink: "https://github.com/alexGalvan0/tic-tac-toe",
+    liveDemo: "https://alexgalvan0.github.io/tic-tac-toe/"
   },
   {
     imagePath: "./img/todo.jpg",
