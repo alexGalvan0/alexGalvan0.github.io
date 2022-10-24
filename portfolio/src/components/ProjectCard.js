@@ -26,7 +26,8 @@ export default function ProjectCard({imagePath, title, description,repoLink, liv
       </CardContent>
       <CardActions>
         <Button size="small"><a target='_blank' href={repoLink}>Repo</a></Button>
-        <Button size="small"><a target='_blank' href={liveDemo}>Live Demo</a></Button>
+        <Button><a href={liveDemo}>Live Demo</a></Button>
+
       </CardActions>
     </Card>
   );
