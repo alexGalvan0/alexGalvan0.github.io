@@ -1,8 +1,8 @@
-
+import './Splash.css'
 function Splash() {
     return (
 <>
-<div className="d-flex text-bg-dark" style={{height:'80vh'}}>
+<div className="d-flex text-bg-dark splash" style={{height:'80vh'}}>
     
 <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header className="mb-auto">
@@ -15,12 +15,12 @@ function Splash() {
     </div>
   </header>
 
-  <main className="px-3 d-flex justify-content-center align-items-center flex-row" style={{height:'80vh'}}>
+  <main className="px-3 d-flex justify-content-center align-items-center flex-column text-dark" style={{height:'80vh'}}>
     <h1>ALEX GALVAN</h1>
     <p className="lead">Web Dev</p>
-    {/* <p className="lead">
-      <a href="#" className="btn btn-lg btn-secondary fw-bold border-white bg-dark">Message me!</a>
-    </p> */}
+    <p className="lead">
+      <a href="#" className="btn btn-lg btn-secondary fw-bold border-white bg-dark">Lets Work Together!</a>
+    </p> 
   </main>
 </div>
 

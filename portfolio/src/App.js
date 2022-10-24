@@ -1,6 +1,6 @@
 //Componentes
 import About from "./components/About";
-import Splash from "./components/Splash";
+import Splash from "./components/Splash/Splash";
 import ProjectCard from "./components/ProjectCard";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer";
@@ -26,9 +26,9 @@ function App() {
         PROJECTS
       </Typography>
 
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
-          <div className="col d-flex justify-content-around flex-wrap gap-2">
+          <div className="col d-flex justify-content-around flex-wrap gap-4">
             {projects.map((project) => {
               return (
                 <ProjectCard
