@@ -4,6 +4,7 @@ import Splash from "./components/Splash/Splash";
 import ProjectCard from "./components/ProjectCard";
 import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer";
+import ContactCard from "./components/ContactCard";
 
 import Typography from "@mui/material/Typography";
 
@@ -43,6 +44,7 @@ function App() {
             })}
           </div>
         </div>
+        <ContactCard />
       </div>
       <Footer />
     </div>

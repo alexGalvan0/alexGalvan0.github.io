@@ -14,7 +14,7 @@ export default function ProjectCard({
   liveDemo,
 }) {
   return (
-    <Card sx={{ width: 250 }}>
+    <Card sx={{ width: 250 }} className="mb-5">
       <CardMedia component="img" height="140" image={imagePath} alt="Card" id="projects" />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

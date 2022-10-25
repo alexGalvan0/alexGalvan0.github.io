@@ -19,7 +19,7 @@ function Splash() {
     <h1>ALEX GALVAN</h1>
     <p className="lead">Web Dev</p>
     <p className="lead">
-      <a href="#" className="btn btn-lg btn-secondary fw-bold border-white bg-dark">Lets Work Together!</a>
+      <a href="#contact-card" className="btn btn-lg btn-secondary fw-bold border-white bg-dark">Lets Work Together!</a>
     </p> 
   </main>
 </div>

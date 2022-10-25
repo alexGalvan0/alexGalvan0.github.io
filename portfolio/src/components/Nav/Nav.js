@@ -26,7 +26,7 @@ function Nav() {
             <a className="nav-link link-light" href="#projects">
               Blog
             </a>
-            <a className="nav-link link-light" href="#projects">
+            <a className="nav-link link-light" href="#contact-card">
               Contact
             </a>
           </div>
