@@ -2,7 +2,7 @@ import './Nav.css'
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark">
+    <nav className="navbar navbar-expand-lg bg-dark sticky-top">
       <div className="container-fluid">
         <a className="navbar-brand link-light" href="#">
           AG
@@ -20,8 +20,14 @@ function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav" >
-            <a className="nav-link link-light" href="#">
-              Features
+            <a className="nav-link link-light" href="#projects">
+              Projects
+            </a>
+            <a className="nav-link link-light" href="#projects">
+              Blog
+            </a>
+            <a className="nav-link link-light" href="#projects">
+              Contact
             </a>
           </div>
         </div>

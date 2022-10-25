@@ -37,6 +37,7 @@ function App() {
                   description={project.description}
                   imagePath={project.imagePath}
                   repoLink={project.repoLink}
+                  liveDemo={project.liveDemo}
                 />
               );
             })}
