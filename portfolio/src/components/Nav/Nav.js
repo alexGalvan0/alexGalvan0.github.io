@@ -1,4 +1,4 @@
-import './Nav.css'
+import "./Nav.css";
 
 function Nav() {
   return (
@@ -19,15 +19,15 @@ function Nav() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav" >
+          <div className="navbar-nav">
             <a className="nav-link link-light" href="#projects">
               Projects
             </a>
-            <a className="nav-link link-light" href="#projects">
-              Blog
-            </a>
             <a className="nav-link link-light" href="#contact-card">
               Contact
+            </a>
+            <a className="nav-link link-light" href="#accordionExample">
+              Blog
             </a>
           </div>
         </div>
