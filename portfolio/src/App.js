@@ -47,30 +47,29 @@ function App() {
         </div>
       </div>
       <div className="col">
-        <div className="row">
+
           <Typography
             className="text-center mb-3 pt-4 bg-light"
-            style={{ color: "black", height: "5rem", width: "100%" }}
+            style={{ color: "black", height: "5rem" }}
             varient="h2"
             mt={2}
           >
             CONTACT
           </Typography>
           <div className="col d-flex justify-content-center ">
-            <div className="row">
               <ContactCard />
-            </div>
+  
           </div>
           <Typography
             className="text-center mb-3 pt-4 bg-light"
-            style={{ color: "black", height: "5rem", width: "100%" }}
+            style={{ color: "black", height: "5rem" }}
             varient="h2"
             mt={2}
           >
             BLOG
           </Typography>
           <Blog />
-        </div>
+       
       </div>
       <Footer />
     </div>
