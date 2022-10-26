@@ -11,6 +11,7 @@ export default function About() {
             React Js, Django and Git in an Agile work enviroment. Feel free to reach
             out to me and connect on how I can bring value to your company.
           </p>
+          <a href="#contact-card" className="btn btn-lg btn-secondary fw-bold border-white bg-dark">Contact Me</a>
         </div>
 
         <img
