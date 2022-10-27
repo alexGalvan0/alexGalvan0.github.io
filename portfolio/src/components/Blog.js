@@ -1,8 +1,8 @@
-function Blog() {
+function Blog({id, date,question1}) {
   return (
     <div className="accordion" id="accordionExample">
       <div className="accordion-item">
-        <h2 className="accordion-header" id="headingOne">
+        <h2 className="accordion-header" id={id}>
           <button
             className="accordion-button"
             type="button"
@@ -11,7 +11,7 @@ function Blog() {
             aria-expanded="true"
             aria-controls="collapseOne"
           >
-            August 29, 2022
+            {date}
           </button>
         </h2>
         <div
@@ -20,6 +20,18 @@ function Blog() {
           aria-labelledby="headingOne"
           data-bs-parent="#accordionExample"
         >
+          <div className="accordion-body">
+            <strong>
+              {" "}
+              {question1}
+            </strong>
+            <br /> Before the bootcamp, I really did not have any expectations,
+            however I was not expecting the amount of reading we did this first
+            week. I also did not expect to lear as much about git as I did! The
+            way that git works is so freaking cool. To know how the industry
+            releseas beta applications or features then deploys them to be the
+            stable build is pretty great.
+          </div>
           <div className="accordion-body">
             <strong>
               {" "}
