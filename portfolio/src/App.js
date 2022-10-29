@@ -11,6 +11,7 @@ import Typography from "@mui/material/Typography";
 
 //Data
 import { projects } from "./projects";
+import { blogs } from "./Blogs";
 
 function App() {
   return (
@@ -47,29 +48,42 @@ function App() {
         </div>
       </div>
       <div className="col">
-
-          <Typography
-            className="text-center mb-3 pt-4 bg-light"
-            style={{ color: "black", height: "5rem" }}
-            varient="h2"
-            mt={2}
-          >
-            CONTACT
-          </Typography>
-          <div className="col d-flex justify-content-center ">
-              <ContactCard />
-  
+        <Typography
+          className="text-center mb-3 pt-4 bg-light"
+          style={{ color: "black", height: "5rem" }}
+          varient="h2"
+          mt={2}
+        >
+          CONTACT
+        </Typography>
+        <div className="col d-flex justify-content-center ">
+          <ContactCard />
+        </div>
+        <Typography
+          className="text-center mb-3 pt-4 bg-light"
+          style={{ color: "black", height: "5rem" }}
+          varient="h2"
+          mt={2}
+        >
+          BLOG
+        </Typography>
+        <div className="row">
+          <div className="col d-flex justify-content-center flex-column p-5">
+            {blogs.map((blog) => {
+              return (
+                <Blog
+                  key={blog.id}
+                  id={blog.id}
+                  classSetting={blog.classSetting}
+                  control={blog.control}
+                  date={blog.date}
+                  question={blog.question}
+                  answer={blog.answer}
+                />
+              );
+            })}
           </div>
-          {/* <Typography
-            className="text-center mb-3 pt-4 bg-light"
-            style={{ color: "black", height: "5rem" }}
-            varient="h2"
-            mt={2}
-          >
-            BLOG
-          </Typography> */}
-          {/* <Blog /> */}
-       
+
       </div>
       <Footer />
     </div>
