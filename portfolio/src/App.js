@@ -67,19 +67,23 @@ function App() {
         >
           BLOG
         </Typography>
-        {blogs.map((blog) => {
-          return (
-            <Blog
-              key={blog.id}
-              id={blog.id}
-              classSetting={blog.classSetting}
-              control={blog.control}
-              date={blog.date}
-              question={blog.question}
-              answer={blog.answer}
-            />
-          );
-        })}
+        <div className="row">
+          <div className="col d-flex justify-content-center flex-column p-5">
+            {blogs.map((blog) => {
+              return (
+                <Blog
+                  key={blog.id}
+                  id={blog.id}
+                  classSetting={blog.classSetting}
+                  control={blog.control}
+                  date={blog.date}
+                  question={blog.question}
+                  answer={blog.answer}
+                />
+              );
+            })}
+          </div>
+        </div>
       </div>
       <Footer />
     </div>
