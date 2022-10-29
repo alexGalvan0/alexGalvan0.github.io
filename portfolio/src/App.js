@@ -60,15 +60,15 @@ function App() {
               <ContactCard />
   
           </div>
-          <Typography
+          {/* <Typography
             className="text-center mb-3 pt-4 bg-light"
             style={{ color: "black", height: "5rem" }}
             varient="h2"
             mt={2}
           >
             BLOG
-          </Typography>
-          <Blog />
+          </Typography> */}
+          {/* <Blog /> */}
        
       </div>
       <Footer />
