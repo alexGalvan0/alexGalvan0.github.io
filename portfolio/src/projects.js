@@ -8,7 +8,7 @@ export const projects = [
   {
     imagePath: "./img/tic-tac-toe.jpg",
     title: "Tic-Tac-Toe",
-    description: "All elements created dynamically using JS. Used local storage API to keep score after page refresh.",
+    description: "Classic game implemented with Object Oriented Programming and a MVC framework..",
     repoLink: "https://github.com/alexGalvan0/tic-tac-toe",
     liveDemo: "https://alexgalvan0.github.io/tic-tac-toe/",
   },
@@ -29,8 +29,15 @@ export const projects = [
   {
     imagePath: "./img/weather-app.jpg",
     title: "Weather App",
-    description: "Dynamically used JS to create all HTML elements. Used Axios to call the open weather API",
+    description: "Displays current weather information using Axios to fetch data and utilizing local storage to require less API requests.",
     repoLink: "https://github.com/alexGalvan0/weather-app",
     liveDemo: "https://alexgalvan0.github.io/weather-app/",
+  },
+  {
+    imagePath: "./img/alarm-clock.jpg",
+    title: "Alarm Clock",
+    description: "Use of the Date object, setInterval, and setTimeout to display a digital alarm clock.",
+    repoLink: "https://github.com/alexGalvan0/alarm-clock",
+    liveDemo: "https://alexgalvan0.github.io/alarm-clock/",
   },
 ];
