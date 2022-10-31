@@ -65,7 +65,7 @@ function App() {
           varient="h2"
           mt={2}
         >
-          BLOG
+          AWESOME INC WEB DEV BOOTCAMP BLOG
         </Typography>
         <div className="row">
           <div className="col d-flex justify-content-center flex-column p-5">
@@ -76,8 +76,8 @@ function App() {
                   id={blog.id}
                   classSetting={blog.classSetting}
                   control={blog.control}
+                  week={blog.week}
                   date={blog.date}
-                  question={blog.question}
                   answer={blog.answer}
                 />
               );

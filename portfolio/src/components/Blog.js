@@ -1,4 +1,4 @@
-function Blog({ id, date, question, answer, control}) {
+function Blog({ id, week, date, answer, control}) {
   return (
     <div className="accordion accordion-flush" id="accordionExample">
       <div className="accordion-item">
@@ -11,7 +11,7 @@ function Blog({ id, date, question, answer, control}) {
             aria-expanded="true"
             aria-controls={control}
           >
-            {date}
+            {week}
           </button>
         </h2>
         <div
@@ -21,7 +21,7 @@ function Blog({ id, date, question, answer, control}) {
           data-bs-parent="#accordionExample"
         >
           <div className="accordion-body">
-            <strong>{question}</strong>
+            <strong>{date}</strong>
             <br /> {answer}
           </div>
         </div>
