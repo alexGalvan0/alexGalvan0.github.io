@@ -67,7 +67,7 @@ function App() {
         >
           AWESOME INC WEB DEV BOOTCAMP BLOG
         </Typography>
-        <div className="row">
+        <div className="row-12">
           <div className="col d-flex justify-content-center flex-column p-5">
             {blogs.map((blog) => {
               return (

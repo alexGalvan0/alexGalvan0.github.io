@@ -20,12 +20,16 @@ function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
+            <a className="nav-link link-light" href="#about">
+              About
+            </a>
             <a className="nav-link link-light" href="#projects">
               Projects
             </a>
             <a className="nav-link link-light" href="#contact-card">
               Contact
             </a>
+
             <a className="nav-link link-light" href="#accordionExample">
               Blog
             </a>
