@@ -1,3 +1,6 @@
+//Dependencies
+import { Routes, Route } from "react-router-dom"
+
 //Componentes
 import About from "./components/About";
 import Splash from "./components/Splash/Splash";
