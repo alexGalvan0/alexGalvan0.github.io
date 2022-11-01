@@ -17,9 +17,9 @@ function Splash() {
 
   <main className="px-3 d-flex justify-content-center align-items-center flex-column text-dark" style={{height:'80vh'}}>
     <h1>ALEX GALVAN</h1>
-    <p className="lead">Web Dev</p>
+    <p className="lead">Full Stack Developer</p>
     <p className="lead">
-      <a href="#contact-card" className="btn btn-lg btn-secondary fw-bold border-white bg-dark">Lets Work Together!</a>
+      <a href="#about" className="btn btn-lg btn-secondary fw-bold border-white bg-dark">About Me</a>
     </p> 
   </main>
 </div>
