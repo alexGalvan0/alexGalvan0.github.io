@@ -40,4 +40,12 @@ export const projects = [
     repoLink: "https://github.com/alexGalvan0/alarm-clock",
     liveDemo: "https://alexgalvan0.github.io/alarm-clock/",
   },
+  {
+    imagePath: "./img/sqlHeroes.jpg",
+    title: "SQL Heroes",
+    description: "Full CRUD app inside terminal. Maniuplating Postgres DB using Python",
+    repoLink: "https://github.com/alexGalvan0/sql-heroes"
+  },
+  
+  
 ];
