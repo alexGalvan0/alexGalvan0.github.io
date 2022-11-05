@@ -6,6 +6,7 @@ import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer";
 import ContactCard from "./components/ContactCard";
 import Blog from "./components/Blog";
+import Scroll from "./components/Blog/Scroll";
 
 import Typography from "@mui/material/Typography";
 
@@ -83,6 +84,7 @@ function App() {
               );
             })}
           </div>
+<Scroll />
         </div>
       </div>
       <Footer />
