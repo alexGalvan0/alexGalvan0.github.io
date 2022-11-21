@@ -1,15 +1,16 @@
+import Link from 'next/link'
 function Nav() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="/">AG</a>
+            <Link className="navbar-brand" href="/">AG</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <a className="nav-link" href="/about">About</a>
-                    <a className="nav-link" href="#">Pricing</a>
-                    <a className="nav-link disabled">Disabled</a>
+                    <Link className="nav-link" href="/about">About</Link>
+                    <Link className="nav-link" href="/blog">Blog</Link>
+                    <Link className="nav-link" href="/projects">Projects</Link>
                 </div>
             </div>
         </nav>
