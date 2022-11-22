@@ -1,9 +1,15 @@
 export const projects = [
-  {
-    imagePath: "./img/react-restaurant.jpg",
-    title: "Restaurant Menu",
-    description: "API no longer available. Used React JS for this project. Was able to create a card component and re-use it based on the data from API",
-    repoLink: "https://github.com/alexGalvan0/react-restaurant",
+  // {
+  //   imagePath: "./img/react-restaurant.jpg",
+  //   title: "Restaurant Menu",
+  //   description: "API no longer available. Used React JS for this project. Was able to create a card component and re-use it based on the data from API",
+  //   repoLink: "https://github.com/alexGalvan0/react-restaurant",
+  // },
+    {
+    imagePath: "./img/backend-bistro.jpg",
+    title: "Restaurant Menu API",
+    description: "Django API servecing a menu front end. Postgres database",
+    repoLink: "https://github.com/alexGalvan0/bistro-backend",
   },
   {
     imagePath: "./img/tic-tac-toe.jpg",
@@ -40,12 +46,12 @@ export const projects = [
     repoLink: "https://github.com/alexGalvan0/alarm-clock",
     liveDemo: "https://alexgalvan0.github.io/alarm-clock/",
   },
-  {
-    imagePath: "./img/sqlHeroes.jpg",
-    title: "SQL Heroes",
-    description: "Full CRUD app inside terminal. Maniuplating Postgres DB using Python",
-    repoLink: "https://github.com/alexGalvan0/sql-heroes"
-  },
+  // {
+  //   imagePath: "./img/sqlHeroes.jpg",
+  //   title: "SQL Heroes",
+  //   description: "Full CRUD app inside terminal. Maniuplating Postgres DB using Python",
+  //   repoLink: "https://github.com/alexGalvan0/sql-heroes"
+  // },
   
   
 ];
