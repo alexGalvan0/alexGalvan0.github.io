@@ -8,9 +8,9 @@ function ContactCard() {
           Fullstack Developer
         </p>
         <div className="d-flex flex-row justify-content-around ">
-        <a href="tel:+18597979311"><img src="./img/Phone.svg" alt="phone" style={{height:'3rem'}} /></a>
-        <a href="mailto:galvan.alex121@gmail.com"><img src="./img/Email.svg" alt="email" style={{height:'3rem'}} /></a>
         <a href="https://github.com/alexGalvan0" target='_blank'><img src="./img/Github.svg" alt="git" style={{height:'3rem'}} /></a>
+        <a href="mailto:galvan.alex121@gmail.com"><img src="./img/Email.svg" alt="email" style={{height:'3rem'}} /></a>
+        <a href="https://www.linkedin.com/in/alex-galvan0/" target='_blank'><img src="./img/linkedin.png" alt="git" style={{height:'3rem'}} /></a>
         </div>
         
         

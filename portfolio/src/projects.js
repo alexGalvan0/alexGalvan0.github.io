@@ -5,6 +5,13 @@ export const projects = [
   //   description: "API no longer available. Used React JS for this project. Was able to create a card component and re-use it based on the data from API",
   //   repoLink: "https://github.com/alexGalvan0/react-restaurant",
   // },
+  {
+    imagePath: "./img/goodMovies.jpg",
+    title: "Good Movies",
+    description: "Next JS and Material front end, Django Rest framewrok for the api",
+    liveDemo: "https://good-movies-client.vercel.app",
+    repoLink: "https://github.com/alexGalvan0/good-movies-client/tree/main/good-movies",
+  },
     {
     imagePath: "./img/backend-bistro.jpg",
     title: "Restaurant Menu API",
@@ -25,13 +32,13 @@ export const projects = [
     repoLink: "https://github.com/alexGalvan0/react-todo",
     liveDemo: "https://alexgalvan0.github.io/react-todo/",
   },
-  {
-    imagePath: "./img/mind-reader.jpg",
-    title: "Mind Reader",
-    description: "Dynamically used JS to create all HTML elements.",
-    repoLink: "https://github.com/alexGalvan0/mind-reader",
-    liveDemo: "https://alexgalvan0.github.io/mind-reader/",
-  },
+  // {
+  //   imagePath: "./img/mind-reader.jpg",
+  //   title: "Mind Reader",
+  //   description: "Dynamically used JS to create all HTML elements.",
+  //   repoLink: "https://github.com/alexGalvan0/mind-reader",
+  //   liveDemo: "https://alexgalvan0.github.io/mind-reader/",
+  // },
   {
     imagePath: "./img/weather-app.jpg",
     title: "Weather App",
