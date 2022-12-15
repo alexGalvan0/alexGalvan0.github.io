@@ -5,12 +5,12 @@ export default function About() {
         <div className="col-lg-7 text-center text-lg-start rounded">
           <h1 className="display-4 fw-bold lh-1 mb-3">About Me</h1>
           <p className="col-lg-10 fs-4">
-            My name is Alex Galvan and I am a Web Developer from Lexington KY! I
-            am currently enrolled at the Awesome Inc Web Developer Bootcamp and
-            plan to finish December 2022. We are learning technologies such as
-            React Js, Django and Git in an Agile work enviroment. Feel free to
-            reach out to me and connect on how I can bring value to your
-            company.
+            My name is Alex Galvan and I have been developing automations, tools
+            and applications for over 3 years. I just graduated the Awesome Inc
+            Web Developer Bootcamp where I have increased my skillset even more.
+            I enjoy making things easy for people, learning and coming up with
+            long lasting solutions. Please reach out to me on to conect on how I
+            can contribute to your team!
           </p>
           <a
             href="#contact-card"
