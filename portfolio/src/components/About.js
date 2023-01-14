@@ -7,8 +7,8 @@ export default function About() {
           <p className="col-lg-10 fs-4">
             My name is Alex Galvan and I have been developing automations, tools
             and applications for over 3 years. I have a strong background in
-            Python and Javascript. Experience in using React|Django|NextJS|React
-            Native| and much more. Feel free to reach out to see how I can
+            Python and Javascript. Experience in using React | Django | NextJS | React
+            Native | and much more. Feel free to reach out to see how I can
             contribute to your team.
           </p>
           <a
