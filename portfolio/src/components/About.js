@@ -6,11 +6,10 @@ export default function About() {
           <h1 className="display-4 fw-bold lh-1 mb-3">About Me</h1>
           <p className="col-lg-10 fs-4">
             My name is Alex Galvan and I have been developing automations, tools
-            and applications for over 3 years. I also graduated the Awesome Inc
-            Web Developer Bootcamp where I increased my skillset even more.
-            I enjoy making things easy for people, learning and coming up with
-            long lasting solutions. Please reach out to me on to connect on how I
-            can contribute to your team!
+            and applications for over 3 years. I have a strong background in
+            Python and Javascript. Experience in using React|Django|NextJS|React
+            Native| and much more. Feel free to reach out to see how I can
+            contribute to your team.
           </p>
           <a
             href="#contact-card"
